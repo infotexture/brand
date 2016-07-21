@@ -21,7 +21,3 @@ exclude: ["ReadMe.md"]
 version: "0.0.2"
 github:
   repo:  https://github.com/wearezeta/brand
-
-# Gems
-gems:
-  - jekyll-gist
