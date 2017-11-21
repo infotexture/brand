@@ -9,6 +9,7 @@
     "*.{json,md,scss}": ["prettier --write", "git add"]
   },
   "scripts": {
-    "fix": "prettier --write \"**/*.{json,md,scss}\""
+    "fix": "prettier --write \"**/*.{json,md,scss}\"",
+    "precommit": "lint-staged"
   }
 }
