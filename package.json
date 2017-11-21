@@ -6,7 +6,7 @@
     "prettier": "1.8.2"
   },
   "lint-staged": {
-    "*.{json,md,scss}": ["prettier --write", "git add"]
+       "*.{json,md,scss}": ["prettier --write", "git add"]
   },
   "scripts": {
     "fix": "prettier --write \"**/*.{json,md,scss}\"",
