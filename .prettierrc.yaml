@@ -1,5 +1,5 @@
 printWidth: 80
-proseWrap: never
+proseWrap: preserve
 singleQuote: true
 tabWidth: 2
 
