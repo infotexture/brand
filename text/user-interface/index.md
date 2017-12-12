@@ -39,9 +39,9 @@ The following sections are particularly useful:
 * [Menus][4]
 * [Requesting Permission][5]
 
-**NOTE:** Apple recently renamed their desktop operating system from “OS X” to “macOS” beginning with Version 10.12 (Sierra).
+**NOTE:** Apple recently renamed their desktop operating system from “OS X” to “macOS” beginning with Version 10.12 (Sierra).
 
-All copy scheduled for publication after the official release of _macOS Sierra_ on September 20, 2016 should be updated to use the new **macOS** name.
+All copy scheduled for publication after the official release of _macOS Sierra_ on September 20, 2016 should be updated to use the new **macOS** name.
 
 ### iOS
 
