@@ -4,7 +4,7 @@
 
 Published via [GitHub Pages][1] & [Jekyll][2] to [brand.wire.com][3].
 
-## Set up a local testing environment
+## Setting up a local testing environment
 
 We recommend you set up the `brand` microsite to run locally on your computer to verify your changes before pushing them to the live site.
 
@@ -40,6 +40,28 @@ At this stage, what you see there should be identical to the production version 
 
 **Note:** For more details, see [Setting up your GitHub Pages site locally with Jekyll][8].
 
+## Formatting code with Prettier
+
+The `brand` microsite uses [Prettier][9] to automatically format code and enforce consistency across the project.
+
+The [prettier-setup][10] installs Prettier and various dependencies, configures formatting rules and sets up commit hooks to ensure files are formatted correctly before commiting.
+
+1. Install the [yarn][11] JavaScript package manager via Homebrew:
+
+   ```sh
+   brew install yarn
+   ```
+
+2. Run `yarn` to install Prettier and dependencies:
+
+   ```sh
+   yarn
+   ```
+
+Now when you edit any of the JSON, Markdown or Sass files in the project, they will be automatically reformatted when you stage your changes in Git.
+
+**Tip:** You can also run Prettier manually via the `yarn fix` command to verify the results before committing.
+
 [1]: https://pages.github.com
 [2]: https://jekyllrb.com
 [3]: https://brand.wire.com
@@ -48,3 +70,6 @@ At this stage, what you see there should be identical to the production version 
 [6]: http://jekyllrb.com
 [7]: http://127.0.0.1:4000/
 [8]: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+[9]: https://prettier.io
+[10]: https://github.com/lipis/prettier-setup
+[11]: https://yarnpkg.com
